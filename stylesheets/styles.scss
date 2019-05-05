@@ -30,6 +30,10 @@ body {
         flex-shrink: 0;
         padding-top: 48px;
 
+        img {
+            max-width: 360px;
+        }
+
         @media only screen and (max-width: 720px) {
             img {
                 width: 100%;
